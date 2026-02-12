@@ -1,0 +1,7 @@
+gui:
+  sidePanelWidth: 0.21
+  expandFocusedSidePanel: true
+  showListFooter: false
+  showRootItemInFileTree: false
+  showRandomTip: false
+  screenMode: half
