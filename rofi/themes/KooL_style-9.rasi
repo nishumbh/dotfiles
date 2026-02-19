@@ -15,6 +15,14 @@ configuration {
     hover-select:               	true;
     me-select-entry:            	"MouseSecondary";
     me-accept-entry:            	"MousePrimary";
+    /* ---- Vim Keybindings ---- */
+    kb-row-up:                   "Up,Control+k,Shift+Tab";
+    kb-row-down:                 "Down,Control+j";
+    kb-accept-entry:             "Control+m,Return,KP_Enter";
+    kb-remove-to-eol:            "Control+Shift+e";
+    /* kb-mode-next:             "Shift+Right,Control+Tab,Control+l"; */
+    /* kb-mode-previous:         "Shift+Left,Control+ISO_Left_Tab,Control+h"; */
+    kb-remove-char-back:         "BackSpace";
 }
 
 /* ---- Load wallust colors ---- */
@@ -168,7 +176,7 @@ element alternate.active {
 element-text selected,
 element selected {
     background-color:               @BGA;
-    text-color:                     @SEL;
+    text-color:                     @FG;
     border:                  	    0px 0px 0px 0px;
     border-radius:                  10px;
     border-color:                   @BDR;
